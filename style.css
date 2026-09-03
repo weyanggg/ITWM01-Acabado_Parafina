@@ -1,0 +1,963 @@
+/* =================================
+   GENERAL
+================================= */
+
+body {
+  margin: 0;
+  background-color: #f9f6f2;
+  color: #292929;
+  font-family: "DM Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+
+/* =================================
+   NAVBAR
+================================= */
+
+.navbar {
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-transparent {
+  background-color: transparent !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  line-height: 1;
+}
+
+.brand-name {
+  color: #1f5c5b;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.brand-subtitle {
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: #777;
+}
+
+.nav-link {
+  color: #292929 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #1f5c5b !important;
+}
+
+
+/* =================================
+   BUTTON
+================================= */
+
+.btn-clinic {
+  background-color: #1f5c5b !important;
+  border-color: #1f5c5b !important;
+  color: white !important;
+  padding: 11px 25px;
+}
+
+.btn-clinic:hover {
+  background-color: #174847 !important;
+  border-color: #174847 !important;
+  color: white !important;
+}
+
+.text-teal {
+  color: #1f5c5b;
+}
+
+
+/* =================================
+   HOME - HERO
+================================= */
+
+.hero {
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+
+  background:
+    linear-gradient(rgba(249, 246, 242, 0.75),
+      rgba(249, 246, 242, 0.85)),
+    url("https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1800&q=80");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  max-width: 650px;
+  padding-top: 80px;
+}
+
+.hero-small-text {
+  color: #1f5c5b;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.hero h1 {
+  font-size: 65px;
+  line-height: 1.1;
+  margin: 20px 0;
+}
+
+.hero h1 span {
+  color: #1f5c5b;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 550px;
+}
+
+
+/* =================================
+   HOME - WELCOME
+================================= */
+
+.welcome {
+  padding: 100px 0;
+}
+
+.section-label {
+  color: #1f5c5b;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.welcome h2 {
+  font-size: 45px;
+  margin: 15px 0 25px;
+}
+
+.welcome p {
+  color: #666;
+  line-height: 1.8;
+}
+
+
+/* =================================
+   HOME - FEATURED SERVICES
+================================= */
+
+.featured {
+  padding: 90px 0;
+  background-color: #ffffff;
+}
+
+.featured h2 {
+  font-size: 42px;
+}
+
+.service-card {
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+  background-color: #f9f6f2;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.service-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.service-card .card-body {
+  padding: 30px;
+}
+
+.service-card h4 {
+  color: #1f5c5b;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.service-price {
+  font-size: 17px;
+  font-weight: 400;
+  color: #292929;
+  margin: 15px 0;
+}
+
+
+/* =================================
+   HOME - WHY CHOOSE US
+================================= */
+
+.why-us {
+  padding: 100px 0;
+  background-color: #e7efeb;
+}
+
+.why-box {
+  padding: 30px;
+}
+
+.why-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #1f5c5b;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.why-box h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.why-box p {
+  color: #555;
+  line-height: 1.7;
+}
+
+
+/* =================================
+   PAGE HEADER
+   ABOUT / CONTACT / OTHER PAGES
+================================= */
+
+.page-header {
+  min-height: 450px;
+  padding: 160px 20px 90px;
+
+  background:
+    linear-gradient(rgba(249, 246, 242, 0.75),
+      rgba(249, 246, 242, 0.85)),
+    url("https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1800&q=80");
+
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header .small-title {
+  color: #1f5c5b;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.page-header h1 {
+  color: #1f5c5b;
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.page-header p {
+  max-width: 650px;
+  margin: 20px auto 0;
+  color: #666;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+
+/* =================================
+   ABOUT - COMPANY OVERVIEW
+================================= */
+
+.overview {
+  padding: 100px 0;
+}
+
+.overview h2 {
+  font-size: 43px;
+  margin: 15px 0 25px;
+}
+
+.overview p {
+  color: #666;
+  line-height: 1.8;
+}
+
+.overview img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+
+/* =================================
+   ABOUT - MISSION & VISION
+================================= */
+
+.mission-vision {
+  padding: 90px 0;
+  background-color: #ffffff;
+}
+
+.info-card {
+  border: none;
+  height: 100%;
+  padding: 40px;
+  background-color: #f9f6f2;
+  transition: 0.3s;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
+}
+
+.info-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #1f5c5b;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.info-card h3 {
+  color: #1f5c5b;
+  margin-bottom: 15px;
+}
+
+.info-card p {
+  color: #666;
+  line-height: 1.8;
+}
+
+
+/* =================================
+   ABOUT - CORE VALUES
+================================= */
+
+.values {
+  padding: 100px 0;
+}
+
+.value-card {
+  border: 1px solid #e1ddd6;
+  background-color: white;
+  padding: 35px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  border-color: #1f5c5b;
+}
+
+.value-number {
+  font-size: 14px;
+  color: #1f5c5b;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.value-card h4 {
+  margin: 15px 0;
+}
+
+.value-card p {
+  color: #666;
+  line-height: 1.7;
+}
+
+
+/* =================================
+   ABOUT - OWNER
+================================= */
+
+.owner {
+  padding: 100px 0;
+  background-color: #e7efeb;
+}
+
+.owner-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.owner h2 {
+  font-size: 42px;
+  margin: 15px 0;
+}
+
+.owner-title {
+  color: #1f5c5b;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.owner p {
+  color: #555;
+  line-height: 1.8;
+}
+
+
+/* =================================
+   ABOUT - TIMELINE
+================================= */
+
+.timeline-section {
+  padding: 100px 0;
+  background-color: white;
+}
+
+.timeline {
+  position: relative;
+  max-width: 850px;
+  margin: 50px auto 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #1f5c5b;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 28px;
+  width: 15px;
+  height: 15px;
+  background-color: #1f5c5b;
+  border-radius: 50%;
+}
+
+.timeline-item:nth-child(odd) .timeline-dot {
+  right: -7px;
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+  left: -7px;
+}
+
+.timeline-year {
+  color: #1f5c5b;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.timeline-item h4 {
+  margin: 10px 0;
+}
+
+.timeline-item p {
+  color: #666;
+  line-height: 1.7;
+}
+
+
+/* =================================
+   ABOUT - TEAM
+================================= */
+
+.team {
+  padding: 100px 0;
+}
+
+.team-card {
+  border: none;
+  background-color: white;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.team-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.team-card .card-body {
+  padding: 25px;
+  text-align: center;
+}
+
+.team-card h4 {
+  margin-bottom: 5px;
+}
+
+.team-position {
+  color: #1f5c5b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.team-card p {
+  color: #666;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+
+/* =================================
+   CONTACT - SECTION
+================================= */
+
+.contact-section {
+  padding: 80px 0;
+}
+
+.section-title {
+  color: #1f5c5b;
+  margin-bottom: 15px;
+}
+
+.section-text {
+  color: #666;
+  line-height: 1.7;
+}
+
+
+/* =================================
+   CONTACT - INFORMATION
+================================= */
+
+.contact-info {
+  background-color: white;
+  border-radius: 15px;
+  padding: 35px;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.contact-icon {
+  width: 45px;
+  height: 45px;
+  background-color: #e7efeb;
+  color: #1f5c5b;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 20px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.contact-item h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #1f5c5b;
+}
+
+.contact-item p {
+  margin-bottom: 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+
+/* =================================
+   CONTACT - GOOGLE MAP
+================================= */
+
+.map-link {
+  color: #1f5c5b;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.map-link:hover {
+  text-decoration: underline;
+}
+
+
+/* =================================
+   CONTACT - SOCIAL MEDIA
+================================= */
+
+.social-icons a {
+  width: 42px;
+  height: 42px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #1f5c5b;
+  color: white;
+  border-radius: 50%;
+
+  text-decoration: none;
+  margin-right: 8px;
+  font-size: 18px;
+
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #173f3e;
+  transform: translateY(-3px);
+}
+
+
+/* =================================
+   CONTACT - FORM
+================================= */
+
+.contact-form {
+  background-color: white;
+  border-radius: 15px;
+  padding: 35px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #292929;
+}
+
+.form-control,
+.form-select {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 15px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #1f5c5b;
+  box-shadow: 0 0 0 0.2rem rgba(31, 92, 91, 0.15);
+}
+
+
+/* =================================
+   CONTACT - MAP
+================================= */
+
+.map-section {
+  padding-bottom: 80px;
+}
+
+.map-container {
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #e7efeb;
+  padding: 40px;
+  text-align: center;
+}
+
+.map-container i {
+  font-size: 45px;
+  color: #1f5c5b;
+}
+
+
+/* =================================
+   FOOTER
+================================= */
+
+footer {
+  background-color: #173f3e;
+  color: white;
+  padding: 40px 0 20px;
+}
+
+footer .brand-name {
+  color: white;
+}
+
+footer .brand-subtitle {
+  color: #b9cbc8;
+}
+
+footer p {
+  color: #d5e0de;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+footer a {
+  color: #d5e0de;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 30px;
+  padding-top: 15px;
+  color: #b9cbc8;
+  font-size: 13px;
+}
+
+
+/* =================================
+   RESPONSIVE - TABLET
+================================= */
+
+@media (max-width: 991px) {
+
+  /* NAVBAR */
+
+  .navbar-transparent {
+    position: absolute;
+    background-color: transparent !important;
+  }
+
+  .navbar-collapse {
+    background-color: #f9f6f2;
+    padding: 20px;
+  }
+
+
+  /* HOME HERO */
+
+  .hero {
+    min-height: 600px;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+
+  /* SERVICE CARDS */
+
+  .service-card h4 {
+    font-size: 18px;
+  }
+
+  .service-description {
+    font-size: 14px;
+  }
+
+  .service-price {
+    font-size: 18px;
+  }
+
+  .service-card .card-body {
+    padding: 20px;
+  }
+
+
+  /* ABOUT PAGE */
+
+  .page-header {
+    min-height: 400px;
+    padding: 140px 20px 70px;
+  }
+
+  .page-header h1 {
+    font-size: 48px;
+  }
+
+
+  /* TIMELINE */
+
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-item,
+  .timeline-item:nth-child(even),
+  .timeline-item:nth-child(odd) {
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding-left: 40px;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-dot,
+  .timeline-item:nth-child(even) .timeline-dot {
+    left: 3px;
+    right: auto;
+  }
+}
+
+
+/* =================================
+   RESPONSIVE - MOBILE
+================================= */
+
+@media (max-width: 576px) {
+
+  /* NAVBAR */
+
+  .navbar-transparent {
+    position: absolute;
+    background-color: transparent !important;
+  }
+
+
+  /* HOME HERO */
+
+  .hero {
+    min-height: 600px;
+  }
+
+  .hero-content {
+    padding-top: 40px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+
+  /* SERVICE CARDS */
+
+  .service-card h4 {
+    font-size: 14px;
+  }
+
+  .service-description {
+    font-size: 11px;
+    line-height: 1.4;
+  }
+
+  .service-price {
+    font-size: 14px;
+  }
+
+  .service-card .card-body {
+    padding: 10px;
+  }
+
+  .service-card .btn {
+    font-size: 10px;
+    padding: 6px 8px;
+  }
+
+
+  /* HEADINGS */
+
+  .welcome h2,
+  .featured h2 {
+    font-size: 35px;
+  }
+
+  .overview h2,
+  .owner h2 {
+    font-size: 34px;
+  }
+
+
+  /* SECTIONS */
+
+  .welcome,
+  .featured,
+  .why-us,
+  .overview,
+  .values,
+  .owner,
+  .team {
+    padding: 70px 0;
+  }
+
+
+  /* PAGE HEADER */
+
+  .page-header {
+    min-height: 350px;
+    padding: 120px 20px 60px;
+  }
+
+  .page-header h1 {
+    font-size: 40px;
+  }
+
+
+  /* ABOUT IMAGES */
+
+  .overview img,
+  .owner-image {
+    height: 350px;
+  }
+}

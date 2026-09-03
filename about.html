@@ -1,0 +1,516 @@
+<!-- I'm using Prettier Formatter kaya ganyan ayos nung code T.T (Kristina) -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMILEIH Dental Clinic</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- RESPONSIVE NAVBAR -->
+    <nav class="navbar navbar-expand-lg py-3" navbar-transparent>
+      <div class="container">
+        <!-- BRAND LOGO -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="./photos/brand logo.PNG"
+            alt="logo"
+            width="60"
+            height="60"
+            class="brand-logo me-2"
+          />
+
+          <div>
+            <div class="brand-name">SMILEIH</div>
+            <div class="brand-subtitle">DENTAL CLINIC</div>
+          </div>
+        </a>
+
+        <!-- NAVBAR FOR MOBILE -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAVIGATION (-.-) -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-3"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-header">
+      <div class="container">
+        <div class="small-title">About SMILEIH</div>
+
+        <h1>
+          Caring for smiles,
+          <br />
+          inspiring confidence.
+        </h1>
+
+        <p>
+          Discover the story, values, and people behind SMILEIH Dental Clinic.
+        </p>
+      </div>
+    </section>
+
+    <section class="overview">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="section-label">Company Overview</div>
+
+            <h2>Dentistry centered around you.</h2>
+
+            <p>
+              LUMIÈRE Dental Clinic is a patient-focused dental practice
+              dedicated to providing quality oral healthcare in a comfortable
+              and welcoming environment.
+            </p>
+
+            <p>
+              Our clinic combines modern dental techniques, professional
+              expertise, and personalized attention to help every patient
+              achieve a healthier and more confident smile.
+            </p>
+
+            <p>
+              From preventive care and routine checkups to cosmetic and
+              restorative treatments, we are committed to making every dental
+              experience comfortable and positive.
+            </p>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://images.unsplash.com/photo-1629909615184-74f495363b67?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100"
+                    alt="Carousel 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1629909614456-6b1c5c94cecc?q=80&w=1494&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100"
+                    alt="Carousel 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1629909615957-be38d48fbbe6?q=80&w=1466&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100"
+                    alt="Carousel 3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission-vision">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-label">Our Purpose</div>
+
+          <h2>Mission & Vision</h2>
+        </div>
+        <div class="row g-4">
+          <!-- MISSION -->
+          <div class="col-md-6">
+            <div class="card info-card">
+              <div class="info-icon">♡</div>
+              <h3>Our Mission</h3>
+              <p>
+                To provide accessible, compassionate, and high-quality dental
+                care through modern techniques and personalized treatment. We
+                strive to create a comfortable environment where every patient
+                feels valued and confident about their oral health.
+              </p>
+            </div>
+          </div>
+          <!-- VISION -->
+          <div class="col-md-6">
+            <div class="card info-card">
+              <div class="info-icon">✦</div>
+              <h3>Our Vision</h3>
+              <p>
+                To become a trusted dental clinic known for exceptional patient
+                care, innovative dentistry, and beautiful, healthy smiles while
+                building long-lasting relationships with the communities we
+                serve.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="values">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-label">What We Believe In</div>
+
+          <h2>Our Core Values</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-3">
+            <div class="value-card">
+              <div class="value-number">01</div>
+
+              <h4>Compassion</h4>
+
+              <p>
+                We treat every patient with kindness, patience, and genuine
+                understanding.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="value-card">
+              <div class="value-number">02</div>
+
+              <h4>Excellence</h4>
+
+              <p>
+                We continuously strive for high standards in dental care and
+                patient experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="value-card">
+              <div class="value-number">03</div>
+
+              <h4>Integrity</h4>
+
+              <p>
+                We believe in honest communication, transparency, and ethical
+                dental care.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="value-card">
+              <div class="value-number">04</div>
+
+              <h4>Innovation</h4>
+
+              <p>
+                We embrace modern technology and continuously improve our
+                approach to dentistry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     OWNER INFORMATION
+=========================================== -->
+
+    <section class="owner">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <img
+              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80"
+              alt="Founder and Dental Professional"
+              class="owner-image"
+            />
+          </div>
+
+          <div class="col-lg-7">
+            <div class="section-label">Meet Our Founder</div>
+
+            <h2>Dr. Amelia Laurent</h2>
+
+            <div class="owner-title">Founder & Lead Dentist</div>
+
+            <p>
+              Dr. Amelia Laurent founded LUMIÈRE Dental Clinic with a simple
+              goal: to create a dental practice where patients receive excellent
+              treatment while feeling genuinely cared for.
+            </p>
+
+            <p>
+              With years of experience in general and cosmetic dentistry, Dr.
+              Laurent believes that communication and trust are essential parts
+              of quality dental care.
+            </p>
+
+            <p>
+              Her leadership continues to shape LUMIÈRE's commitment to
+              professional excellence, patient comfort, and lifelong oral
+              health.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     COMPANY TIMELINE
+=========================================== -->
+
+    <section class="timeline-section">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-label">Our Journey</div>
+
+          <h2>Company Timeline</h2>
+        </div>
+
+        <div class="timeline">
+          <!-- 2021 -->
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-year">2021</div>
+
+            <h4>The Beginning</h4>
+
+            <p>
+              LUMIÈRE Dental Clinic was founded with the goal of providing
+              patient-centered dental care.
+            </p>
+          </div>
+
+          <!-- 2022 -->
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-year">2022</div>
+
+            <h4>Growing Our Team</h4>
+
+            <p>
+              The clinic expanded its dental team and introduced additional
+              preventive and restorative services.
+            </p>
+          </div>
+
+          <!-- 2023 -->
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-year">2023</div>
+
+            <h4>Modernizing Care</h4>
+
+            <p>
+              New dental technology and improved treatment procedures were
+              introduced to enhance patient care.
+            </p>
+          </div>
+
+          <!-- 2025 -->
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-year">2025</div>
+
+            <h4>A Brighter Future</h4>
+
+            <p>
+              LUMIÈRE continues to grow while remaining committed to comfortable
+              and quality dental experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     TEAM MEMBERS
+=========================================== -->
+
+    <section class="team">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-label">Our Professionals</div>
+
+          <h2>Meet Our Team</h2>
+
+          <p class="text-muted mt-3">
+            A dedicated team working together for your healthiest smile.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- TEAM MEMBER 1 -->
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card team-card">
+              <img
+                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=700&q=80"
+                alt="Dr. Daniel Cruz"
+              />
+
+              <div class="card-body">
+                <h4>Dr. Daniel Cruz</h4>
+
+                <div class="team-position">General Dentist</div>
+
+                <p>Focused on preventive and restorative dental care.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TEAM MEMBER 2 -->
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card team-card">
+              <img
+                src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=700&q=80"
+                alt="Dr. Sophia Reyes"
+              />
+
+              <div class="card-body">
+                <h4>Dr. Sophia Reyes</h4>
+
+                <div class="team-position">Cosmetic Dentist</div>
+
+                <p>Specializes in smile enhancement and cosmetic treatments.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TEAM MEMBER 3 -->
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card team-card">
+              <img
+                src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=700&q=80"
+                alt="Dr. Lucas Martin"
+              />
+
+              <div class="card-body">
+                <h4>Dr. Lucas Martin</h4>
+
+                <div class="team-position">Orthodontist</div>
+
+                <p>
+                  Dedicated to creating healthy, balanced, and confident smiles.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TEAM MEMBER 4 -->
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card team-card">
+              <img
+                src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=700&q=80"
+                alt="Mia Santos"
+              />
+
+              <div class="card-body">
+                <h4>Mia Santos</h4>
+
+                <div class="team-position">Dental Hygienist</div>
+
+                <p>
+                  Helps patients maintain excellent oral hygiene and healthy
+                  habits.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="contact">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-12 col-lg-6">
+            <div class="brand-name">SMILEIH</div>
+            <div class="brand-subtitle mb-2">DENTAL CLINIC</div>
+            <p class="mb-0">
+              Providing compassionate, modern, and personalized dental care for
+              healthier, more confident smiles.
+            </p>
+          </div>
+
+          <!-- CONTACT -->
+          <div class="col-12 col-lg-6">
+            <p class="mb-2">📍 123 Sariaya, Quezon</p>
+            <p class="mb-2">📞 (63) 912-3456-789</p>
+            <p class="mb-0">✉️ hellosmileih@gmail.com</p>
+          </div>
+        </div>
+
+        <!-- CREDITS -->
+        <div class="footer-bottom text-center">
+          © 2026 SMILEIH Dental Clinic. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

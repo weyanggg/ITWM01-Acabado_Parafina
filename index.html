@@ -1,0 +1,351 @@
+<!-- I'm using Prettier Formatter kaya ganyan ayos nung code T.T (Kristina) -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMILEIH Dental Clinic</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- RESPONSIVE NAVBAR -->
+    <nav class="navbar navbar-expand-lg py-3" navbar-transparent>
+      <div class="container">
+        <!-- BRAND LOGO -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="./photos/brand logo.PNG"
+            alt="logo"
+            width="60"
+            height="60"
+            class="brand-logo me-2"
+          />
+
+          <div>
+            <div class="brand-name">SMILEIH</div>
+            <div class="brand-subtitle">DENTAL CLINIC</div>
+          </div>
+        </a>
+
+        <!-- NAVBAR FOR MOBILE -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAVIGATION (-.-) -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-3"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO BANNER -->
+    <section class="hero">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-lg-6">
+            <div class="hero-small-text">Exceptional Dental Care</div>
+
+            <h1>A healthier smile, <span>a brighter you.</span></h1>
+            <p>
+              Welcome to SMILEIH Dental Clinic, where modern dentistry meets
+              personalized care. We are dedicated to creating beautiful, healthy
+              smiles in a comfortable and welcoming environment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WELCOME MESSAGE -->
+    <section class="welcome" id="about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-lg-6">
+            <div class="section-label">Welcome to LUMIÈRE</div>
+
+            <h2>Your smile deserves exceptional care.</h2>
+
+            <p>
+              At SMILEIH Dental Clinic, we believe that dental care should be
+              comfortable, personalized, and accessible. Our team combines
+              modern technology with compassionate service to provide treatments
+              designed around your individual needs.
+            </p>
+
+            <p>
+              Whether you need routine preventive care or a complete smile
+              transformation, our dental professionals are here to help you
+              smile with confidence.
+            </p>
+          </div>
+
+          <!-- THREE IMAGE CAROUSEL -->
+          <div class="col-12 col-lg-6">
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1800&q=80"
+                    class="d-block w-100"
+                    alt="Carousel 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1670250721717-889b17349fc4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100"
+                    alt="Carousel 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVldGglMjB3aGl0ZW5pbmd8ZW58MHx8MHx8fDA%3D"
+                    class="d-block w-100"
+                    alt="Carousel 3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THREE FEATURED SERVICE CARDS -->
+    <section class="featured" id="services">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-label">Featured Services</div>
+          <h2 class="mt-2">Care for every smile</h2>
+          <p class="text-muted mt-3">
+            Explore some of our most requested dental services.
+          </p>
+        </div>
+
+        <!-- for the photos ni-copy lang yung image address from unsplash -->
+        <div class="row g-4">
+          <!-- CARD 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1606811856475-5e6fcdc6e509?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Card 1"
+              />
+              <div class="card-body">
+                <h4>Dental Cleaning</h4>
+                <p>
+                  Keep your teeth and gums healthy with professional cleaning
+                  designed to remove plaque and buildup.
+                </p>
+                <a
+                  href="./services.html"
+                  class="btn btn-outline-dark rounded-0"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1670250492416-570b5b7343b1?q=80&w=1325&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Card 2"
+              />
+              <div class="card-body">
+                <h4>Teeth Whitening</h4>
+                <p>
+                  Brighten your smile with professional whitening treatment
+                  performed by our dental team.
+                </p>
+                <a
+                  href="./services.html"
+                  class="btn btn-outline-dark rounded-0"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80"
+                class="card-img-top"
+                alt="Card 3"
+              />
+              <div class="card-body">
+                <h4>Dental Consultation</h4>
+                <p>
+                  Receive personalized dental advice and treatment
+                  recommendations based on your oral health needs.
+                </p>
+                <a
+                  href="./services.html"
+                  class="btn btn-outline-dark rounded-0"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="why-us" id="why-us">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-label">Why Choose Us</div>
+
+          <h2 class="mt-2">Dentistry with a difference</h2>
+        </div>
+
+        <div class="row g-4">
+          <!-- WHY 1x -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="why-box h-100">
+              <div class="why-icon">✓</div>
+              <h4>Experienced Professionals</h4>
+              <p>
+                Our dental team is committed to providing professional,
+                reliable, and personalized dental care.
+              </p>
+            </div>
+          </div>
+
+          <!-- WHY 2x -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="why-box h-100">
+              <div class="why-icon">♥</div>
+              <h4>Patient-Centered Care</h4>
+              <p>
+                We prioritize your comfort and listen to your concerns so every
+                visit feels welcoming and stress-free.
+              </p>
+            </div>
+          </div>
+
+          <!-- WHY 3x -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="why-box h-100">
+              <div class="why-icon">+</div>
+              <h4>Modern Dental Care</h4>
+              <p>
+                We use modern dental techniques and technology to deliver
+                effective and quality treatments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADDITIONAL -->
+
+    <section class="py-5 text-center">
+      <div class="container py-5">
+        <div class="section-label">Ready for a healthier smile?</div>
+
+        <h2 class="display-5 mt-2 mb-3">Let's take care of your smile.</h2>
+
+        <p class="text-muted mb-4">
+          Schedule your visit with SMILEIH Dental Clinic today.
+        </p>
+
+        <a
+          href="./contact.html"
+          class="btn btn-clinic btn-lg rounded-0"
+          id="appointment"
+        >
+          Schedule an Appointment
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="contact">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-12 col-lg-6">
+            <div class="brand-name">SMILEIH</div>
+            <div class="brand-subtitle mb-2">DENTAL CLINIC</div>
+            <p class="mb-0">
+              Providing compassionate, modern, and personalized dental care for
+              healthier, more confident smiles.
+            </p>
+          </div>
+
+          <!-- CONTACT -->
+          <div class="col-12 col-lg-6">
+            <p class="mb-2">📍 123 Sariaya, Quezon</p>
+            <p class="mb-2">📞 (63) 912-3456-789</p>
+            <p class="mb-0">✉️ hellosmileih@gmail.com</p>
+          </div>
+        </div>
+
+        <!-- CREDITS -->
+        <div class="footer-bottom text-center">
+          © 2026 SMILEIH Dental Clinic. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

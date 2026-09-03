@@ -1,0 +1,408 @@
+<!-- I'm using Prettier Formatter kaya ganyan ayos nung code T.T (Kristina) -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMILEIH Dental Clinic</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- RESPONSIVE NAVBAR -->
+    <nav class="navbar navbar-expand-lg py-3" navbar-transparent>
+      <div class="container">
+        <!-- BRAND LOGO -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="./photos/brand logo.PNG"
+            alt="logo"
+            width="60"
+            height="60"
+            class="brand-logo me-2"
+          />
+
+          <div>
+            <div class="brand-name">SMILEIH</div>
+            <div class="brand-subtitle">DENTAL CLINIC</div>
+          </div>
+        </a>
+
+        <!-- NAVBAR FOR MOBILE -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAVIGATION (-.-) -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-3"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="service-section p-4">
+      <div class="container bg-transparent">
+        <div class="row g-4">
+          <!-- SERVICE 1 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1777444969135-caf869407707?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Dental Consultation"
+              />
+              <div class="card-body">
+                <h4>Dental Consultation</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱500</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 2 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1606811951341-756fdd437682?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Oral Examination"
+              />
+              <div class="card-body">
+                <h4>Oral Examination</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱600</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 3 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1670250721717-889b17349fc4?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRlbnRhbCUyMGNsZWFuaW5nfGVufDB8fDB8fHww"
+                class="card-img-top"
+                alt="Dental Cleaning"
+              />
+              <div class="card-body">
+                <h4>Dental Cleaning</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱1,000</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 4 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1657313611708-17639e445455?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fFRFRVRIJTIwV0hJVEVOSU5HfGVufDB8fDB8fHww"
+                class="card-img-top"
+                alt="Teeth Whitening"
+              />
+              <div class="card-body">
+                <h4>Teeth Whitening</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱3,500</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 5 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1661701422669-bcfe6d07c30b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Tooth Filling"
+              />
+              <div class="card-body">
+                <h4>Tooth Filling</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱1,200</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 6-->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1766338390573-ec092d69cdcb?q=80&w=1523&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Tooth Extraction"
+              />
+              <div class="card-body">
+                <h4>Tooth Extraction</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱1,500</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 7 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1643292116094-bd2fb3ed4d64?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Root Canal Treatment"
+              />
+              <div class="card-body">
+                <h4>Root Canal Treatment</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱6,000</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 8 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1660300110427-c4a6efdf18b5?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fERFTlRBTCUyMENST1dOU3xlbnwwfHwwfHx8MA%3D%3D"
+                class="card-img-top"
+                alt="Dental Crowns"
+              />
+              <div class="card-body">
+                <h4>Dental Crowns</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱8,000</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 9 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1660737216869-ad3d43c36500?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fERFTlRBTCUyMENST1dOU3xlbnwwfHwwfHx8MA%3D%3D"
+                class="card-img-top"
+                alt="Dental Veneers"
+              />
+              <div class="card-body">
+                <h4>Dental Veneers</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱10,000</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 10 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1598256989809-394fa4f6cd26?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEJSQUNFU3xlbnwwfHwwfHx8MA%3D%3D"
+                class="card-img-top"
+                alt="Braces Consultation"
+              />
+              <div class="card-body">
+                <h4>Braces Consultation</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱800</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 11 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1662837625421-5fd8ed6131a0?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fG9ydGhvZG9udGljc3xlbnwwfHwwfHx8MA%3D%3D"
+                class="card-img-top"
+                alt="Orthodontic Treatment"
+              />
+              <div class="card-body">
+                <h4>Orthodontic Treatment</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱35,000</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 12 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8REVOVEFMJTIwWFJBWXxlbnwwfHwwfHx8MA%3D%3D"
+                class="card-img-top"
+                alt="Dental X-Ray"
+              />
+              <div class="card-body">
+                <h4>Dental X-Ray</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱1,000</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 13 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1631596577204-53ad0d6e6978?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fEdVTSUyMFRSRUFUTUVOVHxlbnwwfHwwfHx8MA%3D%3D"
+                class="card-img-top"
+                alt="Gum Treatment"
+              />
+              <div class="card-body">
+                <h4>Gum Treatment</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱2,000</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 14 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fERFTlRVUkVTfGVufDB8fDB8fHww"
+                class="card-img-top"
+                alt="Dentures"
+              />
+              <div class="card-body">
+                <h4>Dentures</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱12,000</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- SERVICE 15 -->
+          <div class="col-4">
+            <div class="card service-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1758205308172-fc864545dcf7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Pediatric Dentistry"
+              />
+              <div class="card-body">
+                <h4>Pediatric Dentistry</h4>
+                <p class="service-description">
+                  A professional consultation to assess your dental concerns and
+                  create a personalized treatment plan.
+                </p>
+                <div class="service-price">₱800</div>
+                <button class="btn btn-clinic">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- -->
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="contact">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-12 col-lg-6">
+            <div class="brand-name">SMILEIH</div>
+            <div class="brand-subtitle mb-2">DENTAL CLINIC</div>
+            <p class="mb-0">
+              Providing compassionate, modern, and personalized dental care for
+              healthier, more confident smiles.
+            </p>
+          </div>
+
+          <!-- CONTACT -->
+          <div class="col-12 col-lg-6">
+            <p class="mb-2">📍 123 Sariaya, Quezon</p>
+            <p class="mb-2">📞 (63) 912-3456-789</p>
+            <p class="mb-0">✉️ hellosmileih@gmail.com</p>
+          </div>
+        </div>
+
+        <!-- CREDITS -->
+        <div class="footer-bottom text-center">
+          © 2026 SMILEIH Dental Clinic. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
